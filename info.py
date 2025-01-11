@@ -201,7 +201,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'http://Modijiurl.com')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'Modijiurl.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '56b63343cb99b79ed45a66203d61a5dc13f43f64')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/anime_in_teluguu/29')
 
