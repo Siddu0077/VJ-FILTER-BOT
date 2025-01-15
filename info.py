@@ -204,6 +204,7 @@ VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'Modijiurl.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '56b63343cb99b79ed45a66203d61a5dc13f43f64')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/anime_in_teluguu/29')
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 4000))
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
